@@ -69,6 +69,40 @@
                 <div class="box-body">
                     <h3 style="margin-top:3px;">[Algorithm Problem's] Brute Force Problem ???
                     </h3>
+                    <span class="pull-right">
+                      <span class="dropdown">
+                          <button class="btn btn-warning" type="button" data-toggle="dropdown"><i class="fa fa-star"></i> Rate
+                          <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#"><span class="text-muted">
+                              <span class="fa fa-star checked"></span>
+                            </span></li>
+                            <li><a href="#"><span class="text-muted">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                            </span></li>
+                            <li><a href="#"><span class="text-muted">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                            </span></li>
+                            <li><a href="#"><span class="text-muted">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                            </span></li>
+                            <li><a href="#"><span class="text-muted">
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                              <span class="fa fa-star checked"></span>
+                            </span></li>
+                          </ul>
+                      </span>
+                      <button class="btn btn-primary"><i class="fa fa-share"></i> Share</button>
+                    </span>
                     <p class="text-muted">posted on 25 October 2017, 13:20 AM
                       <span class="label label-success">Advance Algorithm</span>
                       <span class="label label-primary">Brute Force</span>
@@ -216,7 +250,7 @@
                 </div>
                 <div class="col-md-11">
                   <div class="form-group">
-                    <label>Komentar</label>
+                    <label>Beri Komentar</label>
                     <textarea class="form-control" rows="3" placeholder="Ketik Disini..." style="max-width: 100%"></textarea>
                   </div>
                   <button class="btn btn-primary pull-right">Submit</button>

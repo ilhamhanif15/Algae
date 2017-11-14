@@ -75,7 +75,16 @@
                 <div class="box-header with-border">
                   <div class="user-block">
                     <img class="img-circle" src="images/search.jpg" alt="User Image" style="width: 60px;height: 60px;margin-right: 10px">
-                    <span class="username"><a href="#">Depth First Search Algorithm</a></span>
+                    <span class="username">
+                      <a href="#">Depth First Search Algorithm</a>
+                      <span class="pull-right">
+                        <i class="fa fa-bar-chart"></i> 330 view(s)
+                      </span>
+                    </span>
+                    <span class="description">
+                      <span class="label label-success">Searching Algorithm</span>
+                      <span class="label label-primary">Basic Algorithm</span>
+                    </span>
                     <span class="description">Submit by Admin</span>
                     <span class="description">on 24 Aug 2017</span>
                   </div>
@@ -84,7 +93,7 @@
                 <div class="box-body">
                   <div class="row">
                     <div class="col-md-1" style="margin-top: 17%">
-                      <a id="prev" style="color: #504e4e">
+                      <a id="prev" style="color: #504e4e;display: none;">
                         <i class="fa fa-caret-left btnStep" style="font-size: 15em" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -97,20 +106,68 @@
                       </a>
                     </div>
                     <div class="col-md-12">
-                      <p style="font-size: 17px;text-align: justify;">Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. One starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking.</p>
+                      <p style="font-size: 17px;text-align: justify;" id="deskripsiMateri">Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. One starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking.</p>
                     </div>
                   </div>
-                  <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
-                  <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
-                  <span class="pull-right text-muted">127 likes - 3 comments</span>
                 </div>
                 <!-- /.box-body -->
+                <h4><i class="fa fa-comment-o"></i> Kolom Komentar (2 Komentar)</h4>
+                <div class="box-footer box-comments">
+                  <div class="box-comment">
+                    <!-- User image -->
+                    <img class="img-circle img-sm" src="dist/img/user3-128x128.jpg" alt="User Image">
+
+                    <div class="comment-text">
+                          <span class="username">
+                            <span class="nama">Maria Gonzales</span>
+                            <span class="text-muted pull-right">8:03 PM Today</span>
+                          </span><!-- /.username -->
+                      It is a long established fact that a reader will be distracted
+                      by the readable content of a page when looking at its layout.
+                    </div>
+                    <div class="pull-right">
+                      <button class="btn btn-primary btn-xs reply-comment"><i class="fa fa-reply"></i> Reply</button>
+                    </div>
+                    <!-- /.comment-text -->
+                  </div>
+                  <!-- /.box-comment -->
+                  <div class="box-comment">
+                    <!-- User image -->
+                    <img class="img-circle img-sm" src="dist/img/user4-128x128.jpg" alt="User Image">
+
+                    <div class="comment-text">
+                          <span class="username">
+                            <span class="nama">Luna Stark</span>
+                            <span class="text-muted pull-right">8:03 PM Today</span>
+                          </span><!-- /.username -->
+                      It is a long established fact that a reader will be distracted
+                      by the readable content of a page when looking at its layout.
+                    </div>
+                    <div class="pull-right">
+                      <button class="btn btn-primary btn-xs reply-comment"><i class="fa fa-reply"></i> Reply</button>
+                    </div>
+                    <!-- /.comment-text -->
+                  </div>
+                  <!-- /.box-comment -->
+                  <div style="text-align: center;padding-bottom: 0px;" class="box-comment">
+                    <ul class="pagination" style="margin-top: 0px;margin-bottom: 0px;">
+                      <li class="active"><a href="#">1</a></li>
+                      <li class=""><a href="#">2</a></li>
+                    </ul> 
+                  </div>
+                </div>
+
                 <div class="box-footer">
+                  <form action="#" method="post">
+                    <img class="img-responsive img-circle img-sm" src="dist/img/user4-128x128.jpg" alt="Alt Text">
+                    <!-- .img-push is used to add margin to elements next to floating images -->
+                    <div class="img-push">
+                      <input class="form-control input-sm" placeholder="Press enter to post comment" id="textComment" type="text">
+                    </div>
+                  </form>
                 </div>
               </div>
            </div>
-            <div class="box-footer no-padding">
-            </div>
             <!-- /.footer -->
           </div>
     </div>
@@ -231,5 +288,16 @@ $("#prev").hide();
       }
     })
 </script>
+
+<script type="text/javascript">
+  $('.reply-comment').on('click', function (event) {
+      var text = $('#textComment');
+      var index = $('.reply-comment').index(this);
+      var nama = $('.nama').eq(index).text();
+      text.val(text.val() +' @'+nama);
+      text.focus();    
+  });
+</script>
+
 </body>
 </html>

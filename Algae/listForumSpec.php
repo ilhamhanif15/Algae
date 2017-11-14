@@ -52,11 +52,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
     <h1>
-        List Materi
+        All Forum's Thread
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-home" style="color: green"></i> Home</a></li>
-        <li class="active">List Materi</li>
+        <li><a href="#"> Forum</a></li>
+        <li class="active"> All Forum's Thread</li>
       </ol>
     </section>
 
@@ -66,19 +67,18 @@
         <div class="col-md-12">
         <div class="box box-solid box-primary">
             <div class="box-header bg-blue">
-              <h3 class="box-title">List Searching Algorithm</h3>
+              <h3 class="box-title">List Thread</h3>
             </div>
             <!-- /.box-body -->
             <div class="box-body">
               <form action="#" method="post">
                 <div class="form-group">
-                  <label>Pilih Kategori Pembelajaran Algoritma</label>
+                  <label>Pilih Kategori Forum</label>
                   <select class="form-control" name="pilKategori">
-                    <option>Semua/All</option>
-                    <option>Searching Algorithm</option>
-                    <option>Sorting Algorithm</option>
-                    <option>Classification Algorithm</option>
-                    <option>Clustering Algorithm</option>
+                    <option>Semua/All Forum Thread</option>
+                    <option>Tips And Trick</option>
+                    <option>Question and Answer</option>
+                    <option>Custom Forum</option>
                   </select>
                 </div> 
                 <div class="input-group searchform">
@@ -91,67 +91,81 @@
               </form>
            </div>
             <div class="box-footer no-padding">
-              <ul class="nav nav-pills nav-stacked">
-                <li>
-                  <a href="">
-                    <div class="user-block">
-                      <img class="img-circle" src="images/sort.jpg" alt="User Image">
-                      <span class="username">Bubble Sorting Algorithm <i class="fa fa-info-circle" style="color: #e74c3c;" data-toggle="tooltip" title="Hot !"></i></span>
-                      <span class="description">Author : Admin</span>
-                      <span class="description">Kategori : 
-                        <span class="label label-success">Sorting Algorithm</span>
-                        <span class="label label-primary">Basic Algorithm</span>
-                      </span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <div class="user-block">
-                      <img class="img-circle" src="images/search.jpg" alt="User Image">
-                      <span class="username">Breadth First Search Algorithm</span>
-                      <span class="description">Author : Admin</span>
-                      <span class="description">Kategori : 
-                        <span class="label label-success">Searching Algorithm</span>
-                        <span class="label label-primary">Basic Algorithm</span>
-                      </span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <div class="user-block">
-                      <img class="img-circle" src="images/search.jpg" alt="User Image">
-                      <span class="username">Depth First Search Algorithm</span>
-                      <span class="description">Author : Admin</span>
-                      <span class="description">Kategori : 
-                        <span class="label label-success">Searching Algorithm</span>
-                        <span class="label label-primary">Basic Algorithm</span>
-                      </span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <div class="user-block">
-                      <img class="img-circle" src="images/cluster3.jpg" alt="User Image">
-                      <span class="username">K-Nearest Neighbor Algorithm</span>
-                      <span class="description">Author : Admin</span>
-                      <span class="description">Kategori : 
-                        <span class="label label-success">Classification Algorithm</span>
-                        <span class="label label-danger">Advance Algorithm</span>
-                      </span>
-                    </div>
-                  </a>
-                </li>
-                <li style="text-align: center;">
-                  <ul class="pagination">
-                    <li class="active"><a href="#">1</a></li>
-                    <li class=""><a href="#">2</a></li>
-                  </ul> 
-                </li>
-              </ul>
-            </div>
+                    <ul class="nav nav-pills nav-stacked">
+                      <li><a href="Lanjutan_Forum.php">[Algorithm Problem's] Brute Force Problem ???
+                        <span class="pull-right">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                        </span>
+                        <br/><span class="text-green">by: Dias Pambudi</span>
+                        <span class="pull-right" style="color: #8a8a8a ">15 Oct 2017</span>
+                        <br/>
+                        <span class="description" style="color: grey">kategori : 
+                          <span class="label label-success">Classification Algorithm</span>
+                          <span class="label label-danger">Advance Algorithm</span>
+                        </span>
+                        </a>
+                      </li>
+                      <li><a href="#">[Tips And Trick] Combination between Algorithm !
+                        <span class="pull-right">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                        </span>
+                        <br/><span class="text-green">by: Dias Pambudi</span>
+                        <span class="pull-right" style="color: #8a8a8a ">15 Oct 2017</span>
+                        <br/>
+                        <span class="description" style="color: grey">kategori : 
+                          <span class="label label-danger">Advance Algorithm</span>
+                        </span>
+                      </a>
+                      </li>
+                      <li><a href="Lanjutan_Forum.php">[Question and Answer] Why Brute Force ?
+                          <span class="pull-right">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </span>
+                          <br/><span class="text-green">by: Dias Pambudi</span>
+                          <span class="pull-right" style="color: #8a8a8a ">15 Oct 2017</span>
+                          <br/>
+                          <span class="description" style="color: grey">kategori : 
+                            <span class="label label-success">Classification Algorithm</span>
+                            <span class="label label-danger">Advance Algorithm</span>
+                          </span>
+                          </a>
+                        </li>
+                        <li><a href="#">[Question and Answer] Why always kieu ?
+                          <span class="pull-right">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                          </span>
+                          <br/><span class="text-green">by: Dias Pambudi</span>
+                          <span class="pull-right" style="color: #8a8a8a ">15 Oct 2017</span>
+                          <br/>
+                          <span class="description" style="color: grey">kategori : 
+                            <span class="label label-danger">Advance Algorithm</span>
+                          </span>
+                        </a>
+                        </li>
+                        <li style="text-align: center;">
+                          <ul class="pagination">
+                            <li class="active"><a href="#">1</a></li>
+                            <li class=""><a href="#">2</a></li>
+                          </ul> 
+                        </li>
+                    </ul>
+                  </div>
             <!-- /.footer -->
           </div>
     </div>
