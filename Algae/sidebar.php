@@ -26,12 +26,7 @@
         </li>
         <li>
           <a href="">
-            <i class="fa fa-code"></i> <span>Basic Algorithm</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fa fa-code"></i> <span>Advance Algorithm</span>
+            <i class="fa fa-list"></i> <span>Daftar Pembelajaran</span>
           </a>
         </li>
         <li class="header">ALGORITHM TUTORIAL</li>
@@ -64,13 +59,13 @@
         <li class="header">DISKUSI</li>
         <li>
           <a href="">
-            <i class="fa fa-comment"></i>Forum Diskusi<span></span>
+            <i class="fa fa-comment-o"></i>Forum Diskusi<span></span>
           </a>
         </li>
         <li class="header">LAINNYA</li>
         <li>
           <a href="">
-            <i class="fa fa-tasks"></i>Quiz<span></span>
+            <i class="fa fa-book"></i>Quiz<span></span>
           </a>
         </li>
         <li>
